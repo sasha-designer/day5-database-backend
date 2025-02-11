@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.mjs",
-    "dev": "nodemon src/index.mjs"
+    "dev": "nodemon src/index.mjs",
+    "db-generate": "prisma generate"
   },
   "keywords": [],
   "author": "",
